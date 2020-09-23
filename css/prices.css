@@ -1,0 +1,196 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+}
+.backgroundbody{
+    background-color: rgb(22, 22, 22);
+    height: 635px;
+    width: 100%;
+    position: absolute;
+}
+/*ESTILO HEADER*/
+
+.bg {
+    background-color: rgb(37, 37, 37);
+    height: 60px;
+}
+
+.links > a {
+    margin-right: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(146, 146, 146);
+    text-decoration: none;
+    margin-left: 1110px;
+    margin-top: 17px;
+    font-size: 20px;
+    position: absolute;
+}
+.links > a:hover {
+    color: rgb(65, 65, 65);
+    -webkit-transition:all 300ms ease;
+    -o-transition:all 300ms ease;
+    transition:all 300ms ease;
+}
+.links2 > a {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(146, 146, 146);
+    text-decoration: none;
+    margin-left: 1190px;
+    margin-top: 17px;
+    font-size: 20px;
+    position: absolute;
+}
+.links2 > a:hover {
+    color: rgb(65, 65, 65);
+    -webkit-transition:all 300ms ease;
+    -o-transition:all 300ms ease;
+    transition:all 300ms ease;
+}
+
+/* OPCIONES */
+
+.cuadrado1 {
+    animation-name: cuad1anim;
+    animation-duration: 1s;
+    border: #242424 2px solid;
+    background-color:rgb(29, 29, 29);
+    height: 500px;
+    width: 300px;
+    margin-top: 70px;
+    margin-left: 525px;
+    position: absolute;
+}
+.cuadrado1:hover {
+    background-color: rgb(73, 73, 73);
+    -webkit-transition:all 600ms ease;
+    -o-transition:all 600ms ease;
+    transition:all 600ms ease;
+}
+@keyframes cuad1anim{
+    0% {height: 0px;}
+    100%{height: 500px;}
+}
+.cuadrado2 {
+    animation-name: cuad2anim;
+    animation-duration: 2s;
+    border: #242424 2px solid;
+    background-color:rgb(29, 29, 29);
+    height: 450px;
+    width: 250px;
+    margin-top: 95px;
+    margin-left: 235px;
+    position: absolute;
+}
+.cuadrado2:hover {
+    background-color: rgb(73, 73, 73);
+    -webkit-transition:all 600ms ease;
+    -o-transition:all 600ms ease;
+    transition:all 600ms ease;
+}
+@keyframes cuad2anim{
+    0% {height: 0px;}
+    100%{height: 450px;}
+}
+.cuadrado3 {
+    animation-name: cuad2anim;
+    animation-duration: 2.70s;
+    border: #242424 2px solid;
+    background-color:rgb(29, 29, 29);
+    height: 450px;
+    width: 250px;
+    margin-top: 95px;
+    margin-left: 864px;
+    position: absolute;
+}
+.cuadrado3:hover {
+    background-color: rgb(73, 73, 73);
+    -webkit-transition:all 600ms ease;
+    -o-transition:all 600ms ease;
+    transition:all 600ms ease;
+}
+@keyframes cuad2anim{
+    0% {height: 0px;}
+    100%{height: 450px;}
+}
+    /*OPCIONES-PAGO*/
+.standard{
+    color: #858585;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 54px;
+}
+.premium{
+    margin-top: 20px;
+    color: #858585;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 55px;
+}
+.deluxe{
+    margin-top: 20px;
+    color: #858585;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 95px;
+}
+
+.cuadrado1 > hr{
+    animation-name: hr;
+    animation-duration: 0.87s;
+    position: absolute;
+    width: 100%;
+    color: #f1ff9f;
+}
+@keyframes hr{
+    0% {width: 0%;}
+    100% {width: 100%;}
+}
+.cuadrado2 > hr{
+    animation-name: hr2;
+    animation-duration: 0.87s;
+    position: absolute;
+    width: 100%;
+    color: #ffffff;
+}
+@keyframes hr2{
+    0% {width: 0%;}
+    100% {width: 100%;}
+}
+.cuadrado3 > hr{
+    animation-name: hr3;
+    animation-duration: 0.87s;
+    position: absolute;
+    width: 100%;
+    color: #d19fff;
+}
+@keyframes hr3{
+    0% {width: 0%;}
+    100% {width: 100%;}
+}
+
+/* GO */
+
+.cuadrado1 > h2 {
+    color: white;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 125px;
+}
+.cuadrado2 > h2 {
+    color: white;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 105px;
+}
+.cuadrado3 > h2 {
+    color: white;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 105px;
+}
